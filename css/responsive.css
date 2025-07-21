@@ -1,0 +1,507 @@
+@media (min-width:768px) and (max-width:1023px){
+    .continer{
+    width: 90%;
+    }
+    header  .top{
+        flex-direction: row;
+        padding: 10px 80px;
+    }
+    header  .top a .mode-main{
+        top:23px;
+        right: 80px;    
+    }
+    header .top a .mode-secondary{
+        top:23px;
+        right: 40px;
+    }
+    header .continer nav{
+      gap: 60%;
+    }
+    header  .top p{
+       margin-right: 10px;
+       margin-bottom: 7px;
+       font-size: 11px;
+    }
+/*header .continer nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-left: 30px;
+    display: flex;
+}
+header .continer nav .logo img{
+    width: 160px;
+    height: 50px;
+    margin: 20px 5px;
+    align-items: center;
+    
+}
+header .menu button{
+    background-color: var(--mainColor);
+    border: 0;
+    padding: 5px 10px ;
+    cursor: pointer;
+}
+header .menu button i{
+    color: #ffffff;
+    font-size: 30px;
+}
+header .side_menu{
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100%;
+    padding: 50px 30px;
+    background-color:#37393fd3;
+    z-index: 1000;
+    display: none;
+}
+header .side_menu button{
+    width: 30px;
+    height: 30px;
+    background-color: var(--mainColor);
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+header .side_menu button i{
+    color: #ffffff;
+    font-size: 30px;
+}
+header .side_menu.open{
+    right: 0;
+}
+header .side_menu ul{
+    list-style: none;
+    margin: 0;padding: 0;
+}
+header .side_menu ul li:not(:last-child a) {
+    border-bottom: 1px solid var(--paragrah);
+}
+header .side_menu ul li a{
+    text-decoration: none;
+    color: var(--fontColor);
+    padding: 20px 0px;
+    display: inline-block;
+    font-size: 20px;
+}
+header .side_menu ul li a:hover{
+    color: var(--mainColor);
+}*/
+    #first div{
+        width: 100%;
+        padding: 90px 80px;    
+    }
+    #second .in{
+       flex-direction:column;
+    }
+    #second .in .left{
+      width: 100%;
+    }
+    #second .in .right{
+      margin:auto;
+    }
+    #fourth .left{
+    width: 80%;
+    padding-left: 80px;
+    padding-top: 40px;
+    }
+    #fivth  .in a {
+        top: 145px;
+        padding: 10px 15px;
+
+    }
+    #fivth .imag{
+    margin: 0px 10px 70px 10px;
+    grid-template-columns: repeat(2,40%);  
+    }
+    #sexth .in{
+        grid-template-columns: repeat(1,100%);
+    }
+    #sexth .in .left{
+        margin-left: 60px;
+        margin-bottom: 20px;
+        display: flex;
+        gap: 30px;
+    }
+    #sexth .in .left p:last-child{
+    margin-top: 30px;
+    }
+    #sexth .in .parent{
+        margin-left: 60px;
+    }
+    #seventh{
+        height: 200vh;
+    }
+    #seventh .continer .in{
+        flex-direction: column;
+    }
+    #seventh .continer .in .left , #seventh .continer .in .right{
+        width: 100%;
+    }
+    #seventh .continer .in .right{
+        margin-top: 150px;
+        padding-left: 10px;
+    }
+    #eigth div{
+        left: 10%;
+    }
+    #nineth .in .mid{
+        flex-direction: column;
+    }
+    #nineth .in .mid .big{
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    #nineth .in .bottom div{
+        padding: 20px;
+    }
+    footer .in .top .logo{
+        display: none;
+    }
+    footer .in .top  .contact{
+        gap: 15px;
+        width: 30%;
+    }
+    footer .in .top  .contact .info h6{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    footer .in .top  .contact .info p{
+        font-size: 12px;
+    }
+    footer .in .mid{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+    footer .in .mid .list{
+    margin-right: 5px;
+    padding: 5px 0px;
+    width: 100%;
+    } 
+    footer .in .mid .last{
+        width: 100%
+    }
+    footer .in .mid .last button{
+        font-size: 10px;
+    }  
+    footer .in .final{
+        font-size: 11px;
+    }
+}
+@media(max-width:767px){
+    .continer{
+      width: 90%;
+    }
+    header  .top{
+        padding: 5px 60px;
+    }
+    header .continer nav{
+      gap: 38%;
+    }
+   /*header  .top a .mode-main{
+        top:5px;
+        right: 30px;   
+        width: 20px;
+        height: 20px; 
+    }
+    header .top a .mode-secondary{
+        top:27px;
+        right: 30px;
+        width: 20px;
+        height: 20px;
+    }*/
+    header  .top p{
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+   /* header .continer nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-left: 30px;
+    display: flex;
+}
+header .continer nav .logo img{
+    width: 160px;
+    height: 50px;
+    margin: 20px 5px;
+    align-items: center;
+    
+}
+header .menu button{
+    background-color: var(--mainColor);
+    border: 0;
+    padding: 5px 10px ;
+    cursor: pointer;
+}
+header .menu button i{
+    color: #ffffff;
+    font-size: 30px;
+}
+header .side_menu{
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100%;
+    padding: 50px 30px;
+    background-color:#37393fd3;
+    z-index: 1000;
+    display: none;
+}
+header .side_menu button{
+    width: 30px;
+    height: 30px;
+    background-color: var(--mainColor);
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+header .side_menu button i{
+    color: #ffffff;
+    font-size: 30px;
+}
+header .side_menu.open{
+    right: 0;
+}
+header .side_menu ul{
+    list-style: none;
+    margin: 0;padding: 0;
+}
+header .side_menu ul li:not(:last-child a) {
+    border-bottom: 1px solid var(--paragrah);
+}
+header .side_menu ul li a{
+    text-decoration: none;
+    color: var(--fontColor);
+    padding: 20px 0px;
+    display: inline-block;
+    font-size: 20px;
+}
+header .side_menu ul li a:hover{
+    color: var(--mainColor);
+}  */ 
+    #first div{
+        width: 100%;
+        padding: 80px 30px;
+    }
+    #first div h1{
+        font-size: 50px;
+    }
+    #first div .two{
+        font-size: 16px;
+    }
+    #second .in{
+        flex-direction: column;
+    }
+    #second .in .left{
+        width: 100%;
+        padding: 50px 0px 30px 0px;
+    }
+    #second .in .right{
+        margin-left: 70px;
+    }
+    #second .in .right h3{
+        font-size: 30px;
+    }
+    #second .in .right p{
+        font-size: 13px;
+    }
+    #second .in .right .parent{
+        flex-direction: column;
+    }
+    #third .in .images{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+    #third .in .images img:last-child{
+        display: block;
+        margin-left: 120px;
+        grid-column: 1/3;  
+    }
+    #fourth .left{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+    }
+    #fourth .left h3{
+        font-size: 30px;
+    }
+    #fourth .left .two{
+        font-size: 15px;
+    }
+    #fourth .left .parent .child{
+        width: 210px;
+    }
+    #fivth  .in{
+        padding: 20px
+    }
+    #fivth  .in  h3 ,#nineth .in .top h3{
+        font-size: 30px;
+    }
+    #fivth  .in a ,#nineth .in .top a{
+        font-size: 15px;
+        padding: 7px 10px;
+        right: 5px;
+    }
+    #fivth .imag{
+        grid-template-columns: repeat(1,100%);
+        margin-left: 80px;
+    }
+    #sexth .in{
+        grid-template-columns: repeat(1,100%);
+        margin-left:20px ;
+    }
+    #sexth .in .left{
+        display: flex;
+        gap: 15px;
+    }
+    #sexth .in .left h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #sexth .in .left p:last-child{
+        font-size: 15px;
+        margin-top: 29px;
+    }
+    #sexth .in .parent{
+        grid-template-columns: repeat(1,80%);
+        gap: 35px 0px;
+        margin-left: 50px;
+    }
+    #sexth .in .parent .child .stars h6{
+        font-size: 18px;
+    }
+    #sexth .in .parent .child  p{
+        font-size: 15px;
+    }
+    #seventh{
+        height: 200vh;
+    }
+    #seventh .continer .in{
+        flex-direction: column;
+    }
+    #seventh .continer .in .left , #seventh .continer .in .right{
+        width: 100%;
+        font-size: 13px;
+    }
+    #seventh .continer .in .left h3 ,#seventh .continer .in .right h3{
+    font-size: 25px;
+    }
+    #seventh .continer .in .left .mid{
+        width: 100%;
+        gap: 20px;
+        padding:10px 30px;
+    }
+    #seventh .continer .in .left .mid div{
+        top: 15px;
+        left: 13px;
+        width: 70px;
+        height: 70px;
+    }
+    #seventh .continer .in .left .mid .two{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    #seventh .continer .in .right{
+        margin-top: 240px;
+        padding-left: 15px;
+    }
+    #seventh .continer .in .right .forrm{
+        width: 100%;
+        margin: auto;
+        padding: 40px 10px;
+    }
+    #seventh .continer .in .right .forrm div{
+        gap: 5px;
+    }
+    #seventh .continer .in .right .forrm button{
+        margin: auto;
+        display: block;
+    }
+    #eigth div{
+        top: 30%;
+        left: 3%;
+        font-size: 45px;
+    }
+    #nineth .in .mid{
+        flex-direction: column;
+    }
+    #nineth .in .mid .big{
+        width: 100%;
+        
+    }
+    #nineth .in .mid .big .card{
+        width: 370px;
+    }
+    #nineth .in .mid .big .card img{
+        height: 100%;
+    }
+    #nineth .in .mid .paragraph a{
+        margin-bottom: 20px;
+        display:inline-block;
+    }
+    #nineth .in .bottom div{
+        padding: 100px 10px;
+    }
+    #nineth .in .bottom div h3{
+        font-size: 25px;
+    }
+    #nineth .in .bottom div .two{
+        display: none;
+    }
+    footer .in .top .logo{
+        display: none;
+    }
+    footer .in .top{
+        flex-direction: column;
+    }
+    footer .in .top  .contact{
+        width: 100%;
+        margin: auto;
+    }
+    footer .in .top  .contact .info h6{
+        font-size: 18px;
+    }
+    footer .in .top  .contact .info p{
+        font-size: 13px;
+    }
+    footer .in .mid{
+        flex-direction: column;
+    }
+    footer .in .mid .list{
+        width: 100%;
+    }
+    footer .in .mid .last{
+        width: 100%;
+    }
+    footer .in .last button ,footer .in .last input{
+        font-size: 12px;
+    }
+    footer .in .final{
+        flex-direction: column;
+    }
+    footer .in .final p{
+        font-size: 9px;
+        margin-bottom: 7px;
+        
+    }
+    
+
+    
+    
+
+
+}
